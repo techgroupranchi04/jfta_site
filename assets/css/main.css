@@ -407,7 +407,16 @@ section {
   padding: 20px;
   background: #fff;
   height: 100%;
-  border-radius: 10px;
+  border-radius: 6px;
+}
+.courses .courses-item img {
+  width: 100%;
+  border-radius: 6px;
+  transition: 0.3s;
+}
+
+.courses .courses-item:hover img {
+  transform: translateY(-10px);
 }
 
 
